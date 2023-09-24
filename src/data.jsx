@@ -2,6 +2,7 @@ import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaBootstrap } from 'react-icons/fa';
 import { BiLogoJquery, BiLogoTailwindCss } from "react-icons/bi";
 
+
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#skills', text: 'skills' },
@@ -51,26 +52,26 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: 'https://media.licdn.com/dms/image/C4E0BAQHKy_x21musGQ/company-logo_200_200/0/1618935522044?e=2147483647&v=beta&t=tJ9tJCcyplBBFlIHpx_XJCLeHYXlF1u7UzkXq84EtuA',
+    url: 'https://d23sharma.github.io/todos/',
+    github: 'https://github.com/d23sharma',
+    title: 'To-do list',
+    text: 'It is a to-do app, created using HTML, CSS and JavaScript',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: 'https://media.licdn.com/dms/image/C4D0BAQG_E7OWJiv4uw/company-logo_200_200/0/1625138261736?e=2147483647&v=beta&t=YvANmrWi4JTKpf9UTFqgu0bpGIHrLXQVUd09er3Ro78',
+    url: 'https://d23sharma.github.io/absolutewebstore/',
+    github: 'https://github.com/d23sharma',
+    title: 'Absolute webstore',
+    text: 'It is a simple website created using HTML and CSS',
   },
   {
     id: nanoid(),
     img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    url: 'https://d23sharma.github.io/bootcamp/', target:"_blank",
+    github: 'https://github.com/d23sharma',
+    title: 'Bootcamp',
+    text: 'This website is created using HTML, CSS and bootstrap',
   },
 ];
