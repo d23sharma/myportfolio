@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='align-element grid md:grid-cols-2 items-center gap-8'>
             <article>
                 <h1 className='font-bold text-6xl tracking-wider'>I am Deepak</h1>
-                <p className='mt-5 tracking-wide capitalize text-3xl text-slate-700'>a front-end developer</p>
+                <p className='mt-5 tracking-wide capitalize text-3xl text-slate-700'>a full stack developer</p>
                 <p className='mt-2 tracking-wide text-lg text-slate-700 capitalize'>Turning ideas into interactive realities</p>
                 <div className='flex gap-x-4 mt-4'>
                     <a href='https://github.com/d23sharma'>
