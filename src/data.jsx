@@ -53,13 +53,13 @@ export const skills = [
     id: nanoid(),
     title: 'jQuery',
     icon: <BiLogoJquery className='h-16 w-16 text-emerald-700' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Proficiency in JQuery, developing efficient and interactive front-end applications using JavaScript library..',
   },
   {
     id: nanoid(),
     title: 'Bootstrap',
     icon: <FaBootstrap className='h-16 w-16 text-emerald-700' />,
-    text: 'Proficiency in JQuery, developing efficient and interactive front-end applications using JavaScript library.',
+    text: 'Proficiency in Bootstap, developing efficient and interactive front-end responsive layout with customized styling for web pages..',
   },
   {
     id: nanoid(),
