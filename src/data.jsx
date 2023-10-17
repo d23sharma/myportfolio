@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaBootstrap } from 'react-icons/fa';
-import { BiLogoJquery, BiLogoTailwindCss } from "react-icons/bi";
+import { FaHtml5, FaJs, FaReact, FaBootstrap, FaNodeJs } from 'react-icons/fa';
+import { BiLogoJquery, BiLogoTailwindCss, BiLogoMongodb } from "react-icons/bi";
+import { SiExpress } from "react-icons/si"
 
 
 export const links = [
@@ -25,9 +26,28 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'React',
+    title: 'React.js',
     icon: <FaReact className='h-16 w-16 text-emerald-700' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  
+  {
+    id: nanoid(),
+    title: 'Node.js',
+    icon: <FaNodeJs className='h-16 w-16 text-emerald-700' />,
+    text: 'Basic knowledge in Node, developing efficient and dynamic back-end applications.',
+  },
+  {
+    id: nanoid(),
+    title: 'Express.js',
+    icon: <SiExpress className='h-16 w-16 text-emerald-700' />,
+    text: 'Basic knowledge in Express, building efficient and interactive single page or multi-page back-end applications.',
+  },
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    icon: <BiLogoMongodb className='h-16 w-16 text-emerald-700' />,
+    text: 'Basic knowledge in MongoDB, developing and managing database.',
   },
   {
     id: nanoid(),
@@ -39,13 +59,13 @@ export const skills = [
     id: nanoid(),
     title: 'Bootstrap',
     icon: <FaBootstrap className='h-16 w-16 text-emerald-700' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Proficiency in JQuery, developing efficient and interactive front-end applications using JavaScript library.',
   },
   {
     id: nanoid(),
     title: 'Tailwind CSS',
     icon: <BiLogoTailwindCss className='h-16 w-16 text-emerald-700' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    text: 'Proficiency in Tailwind CSS, developing efficient and interactive front-end responsive layout with customized styling for web pages.',
   },
 ];
 
